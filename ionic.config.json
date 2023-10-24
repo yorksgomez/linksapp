@@ -1,0 +1,7 @@
+{
+  "name": "linksapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
