@@ -8,8 +8,12 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'web-view',
     pathMatch: 'full'
+  },
+  {
+    path: 'web-view',
+    loadChildren: () => import('./web-view/web-view.module').then( m => m.WebViewPageModule)
   },
 ];
 
